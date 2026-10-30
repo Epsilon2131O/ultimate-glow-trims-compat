@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "epsilon.aat.glowup.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "HorseArmorTrimGlowMixin",
+    "WolfArmorTrimGlowMixin",
+    "ItemRendererTrimGlowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
