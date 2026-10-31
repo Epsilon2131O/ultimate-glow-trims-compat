@@ -14,7 +14,7 @@ import net.neoforged.neoforge.event.AddPackFindersEvent;
 /**
  * Built-in resource packs (src/main/resources/resourcepacks/...) that switch on only when the mods they support are installed.
  *
- * colorsplash_compat: horse/wolf armor trim textures for every Trim's - Color Splash color (for Animal Armor Trims),
+ * colorsplash_compat: horse/wolf armor trim textures for every Trims - Color Splash! color (for Animal Armor Trims),
  *   plus a corrected trimmable_tools.json so Color Splash colors work on tools. Colors used under CC-BY-4.0.
  * netherite_compat: gold-free netherite horse armor (Netherite Horse Armor, MIT) and wolf armor (More Wolf Armors, LGPL-2.1),
  *   matching vanilla netherite armor, whose gold lines would otherwise cross the trim lines.
