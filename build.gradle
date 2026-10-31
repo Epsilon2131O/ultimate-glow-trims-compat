@@ -28,6 +28,15 @@ sourceSets.main.resources {
 
 repositories {
     // Add here additional repositories if required by some of the dependencies below.
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+        }
+        filter { includeGroup "maven.modrinth" }
+    }
 }
 
 base {
@@ -116,8 +125,8 @@ configurations {
 }
 
 dependencies {
-    compileOnly files('libs/MoogsGlowUp-neoforge-1.21.1-2.3.0.jar')
-    compileOnly files('libs/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar')
+    compileOnly "maven.modrinth:moogs-glow-up:2.3.0-neoforge-1.21.1"
+    compileOnly "maven.modrinth:iris:1.8.14-beta.1+1.21.1-neoforge"
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"

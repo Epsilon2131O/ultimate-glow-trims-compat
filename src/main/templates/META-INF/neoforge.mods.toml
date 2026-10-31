@@ -57,7 +57,9 @@ description='''
      - Glowing banner layers on mounts (More Banner Features)
      - Trims on tools and weapons (Trimmable Tools), including first person with shaders
      - All of the above WITH (Trim's - Color Splash!) extra colorways!
-     Client-side only. First-person shader glow is tuned for Complementary Reimagined/Unbound and Euphoria Patches.
+     - Glow effects are client-side;
+     - install on the server too to make netherite horse armor and More Wolf Armors armors trimmable.
+     - First-person shader glow is tuned for Complementary Reimagined/Unbound and Euphoria Patches.
 
      Huge thanks to the modmakers of all the listed mods! This one wouldn't exist without all of yours!
      I just wanted to see all of your mods function together seamlessly for my modpack :)
