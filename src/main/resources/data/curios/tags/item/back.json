@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "#bannercapes:elytra_capes", "required": false }
+  ]
+}

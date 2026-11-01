@@ -8,7 +8,7 @@
 
 And then make those applied trims either glow or pulse using "Moog's Glow Up".
 
-Furthermore you can make banners glow using "Moog's Glow Up" and use "More Banner Features" to put those glowing banners on your horse. (For instance while it's wearing its netherite armor with glowing trims as well!)
+Furthermore you can make banners glow using "Moog's Glow Up" and use "More Banner Features" to put those glowing banners on your horse. (For instance while it's wearing its netherite armor with glowing trims as well!) You can also turn those glowing banners into capes using "Banner Capes" and they keep their glow! Elytra capes can even be worn in the back slot added by "Curios API", so you can fly while still wearing a chestplate!
 
 Basically all of the listed mods interact with each other seamlessly! Every color works with every trim on every tool, weapon, armor piece for players/horses/wolves.
 
@@ -22,6 +22,7 @@ If you like the mod, check out [My Modpack](https://modrinth.com/modpack/the-eps
 
 * **Requirements:** NeoForge 1.21.1 and Moog's Glow Up 2.3.0 or newer. Every other mod is optional, each feature turns on when its mod is installed.
 * **Client and server:** the glowing effects, textures and colors are client-side, so install it on each player's game. Making netherite horse armor and More Wolf Armors armors trimmable is server-side, so install it on the server too if you want that. Players and servers without the mod can still connect, nothing breaks.
+* **Banner Capes:** keeping the glow when crafting a cape, and flying with an elytra cape in the back slot, both happen on the server side, so install it on the server too if you want those in multiplayer.
 * **Netherite armor:** horse and wolf netherite armor lose their gold accents, the same way regular netherite armor does, so the gold lines don't clash with trims.
 * **Performance mods and shaders:** works with Sodium and Iris. First-person glow on held tools is tuned for Complementary Reimagined/Unbound and Euphoria Patches. Other shaderpacks work, but held tools may glow less in first person.
 

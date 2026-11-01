@@ -127,6 +127,7 @@ configurations {
 dependencies {
     compileOnly "maven.modrinth:moogs-glow-up:2.3.0-neoforge-1.21.1"
     compileOnly "maven.modrinth:iris:1.8.14-beta.1+1.21.1-neoforge"
+    compileOnly "maven.modrinth:curios:9.5.1+1.21.1"
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
